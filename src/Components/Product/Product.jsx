@@ -1,8 +1,8 @@
 import React from 'react';
-import './products.css'
+import './product.css'
 
-const Products = (props) => {
-    console.log(props.product.na);
+const Product = (props) => {
+    // console.log(props.product.na);
     // eslint-disable-next-line react/prop-types, no-unused-vars
     const { img, name, seller, quantity, price, ratings } = props.product;
     return (
@@ -19,4 +19,4 @@ const Products = (props) => {
     );
   };
 
-export default Products;
+export default Product;
